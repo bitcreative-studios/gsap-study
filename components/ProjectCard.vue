@@ -13,9 +13,7 @@
       class="meta flex items-center space-x-4 text-3xl absolute right-0 top-0"
       ref="meta"
     >
-      <span class="prompt font-sans font-semibold" ref="prompt"
-        >View project</span
-      >
+      <span class="prompt font-sans" ref="prompt">View project</span>
       <span class="divider" ref="divider" />
       <span>{{ number }}/5</span>
     </div>

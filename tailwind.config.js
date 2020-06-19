@@ -12,6 +12,7 @@ module.exports = {
         primary: '#ff0844',
       },
       fontFamily: {
+        sans: ['poppins', ...defaultTheme.fontFamily.sans],
         serif: ['array-mono', ...defaultTheme.fontFamily.serif],
       },
     },
