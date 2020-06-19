@@ -2,13 +2,15 @@
   <div class="min-h-screen bg-black">
     <Header />
     <div class="container mx-auto">
-      <ProjectCard
-        v-for="project in projects"
-        :key="project.id"
-        :number="project.project"
-        :title="project.title"
-        :image="project.img"
-      />
+      <div class="flex space-x-24">
+        <ProjectCard
+          v-for="project in projects"
+          :key="project.id"
+          :number="project.project"
+          :title="project.title"
+          :image="project.img"
+        />
+      </div>
     </div>
   </div>
 </template>
